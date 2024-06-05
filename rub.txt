@@ -1,0 +1,198 @@
+why two p from the hpvideo overlapped? how to make them show in two lines
+...
+.hpvideo {
+    border:5px solid #ff0000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hpvideo video{
+    border:5px solid rgb(255, 251, 0);
+    width:100%
+    
+    }
+
+.hpvideo p{
+    color: aliceblue;
+    position:absolute;
+    display:block;
+    padding-top: 25%;
+    padding-left: 25%;
+
+}
+...
+        <div class="hpvideo">
+            <p>Explore</p>
+            <p>ReSaTech Limited - The AI solution for your product reliability.</p>
+            <video src="vid/tech-background.webm" autoplay loop muted></video>
+        </div>
+
+
+
+
+
+
+
+
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5; /* increase the line height for better readability */
+    position:absolute
+
+
+
+[
+    .aboutus{
+    border:1px solid rgb(137, 228, 255);
+    width:100%;
+    height:80vh;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+.aboutus1{
+    border:1px solid rgb(255, 251, 0);
+    flex:1
+
+}
+
+.aboutus2{
+    border:1px solid rgb(255, 30, 0);
+    flex:1
+}]
+
+[
+.aboutus{
+    border:1px solid rgb(137, 228, 255);
+    width:100%;
+    height:80vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+.aboutus1{
+    border:1px solid rgb(255, 251, 0);
+    width:50%;
+    flex:start;
+}
+
+.aboutus2{
+    border:1px solid rgb(255, 30, 0);
+    width:50%;
+
+}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Save Comment</title>
+</head>
+<body>
+  <form onsubmit="saveComment(event)">
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="comment"></textarea>
+    <button type="submit">Save</button>
+  </form>
+  
+  <script>
+function saveComment(event) {
+  event.preventDefault();  // Prevent the form from submitting normally
+  var comment = document.getElementById("comment").value;
+  if (!comment) {
+    alert("Comment field cannot be empty.");
+    return;
+  }
+  try {
+    localStorage.setItem("comment.txt", comment);
+    var link = document.createElement("a");
+    link.download = "comment.txt";
+    link.href = "data:text/plain;charset=utf-8," + encodeURIComponent(comment);
+    link.click();  // Automatically download the file
+    alert("Comment saved successfully.");
+  } catch (e) {
+    alert("Failed to save comment. " + e.message);
+  }
+}
+  </script>
+</body>
+</html>
+
+
+
+
+To reference an image at multiple places on your website using an alternative name, you can consider using HTML image element (`<img>`) 
+and assign a unique ID or class to reference it easily. Here's an example:
+
+1. In your HTML markup, include the image tag with a unique ID or class:
+```html
+<img src="path_to_image.jpg" alt="Alternative Text" id="abbc-image" />
+```
+
+2. Whenever you want to reference the image, you can use the assigned ID ("abbc-image") using HTML or CSS:
+Using HTML:
+```html
+<p>This is a reference to the image:<br>
+<img src="#abbc-image" alt="Alternative Text" /></p>
+```
+
+Using CSS:
+```html
+<style>
+.abbc-reference {
+  background-image: url(#abbc-image);
+  /* Other styling properties */
+}
+</style>
+
+<div class="abbc-reference">This is another reference to the image</div>
+```
+
+Assigning a unique ID or class to the image allows you to reference it using that identifier whenever needed. Just make sure the ID 
+or class name you choose is unique within your HTML markup.
+
+
+
+```html
+<p id="unique-text-id">This is some unique text that I want to reference elsewhere on my page</p>
+```
+
+In the example above, the paragraph text has been given an ID of "unique-text-id". You can then reference this text 
+using the ID in the same way that you would reference an image, by using the hash (#) character followed by the ID.
+
+For example, if you wanted to link to this paragraph text from elsewhere on your page, you could use the following HTML code:
+
+```html
+<a href="#unique-text-id">Click here to jump to the unique text</a>
+```
+
+This would create a hyperlink that, when clicked, would jump the user directly to the paragraph text with the ID of "unique-text-id".

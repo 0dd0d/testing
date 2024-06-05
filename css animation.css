@@ -1,0 +1,19 @@
+.fade-in {
+    opacity: 0;
+  }
+
+  .fade-in.active {
+    animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  

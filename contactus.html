@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ReSaTech Limited</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="icon" type="image/x-icon" href="pic/ReSaTech_Logo_resized.png">
+	<link rel="stylesheet" type="text/css" href="website css.css">
+    <link rel="stylesheet" href="css animation.css">
+    <script src="javas.js"></script>
+    <!-- <meta http-equiv="refresh" content="2"> -->
+</head>
+<body>
+	<header>
+        <div class="desktopheader">
+            <img id="logo" src="pic/ReSaTech_Logo6a.png" alt="our company logo"></img>
+            <div class="desktopul">
+                <nav>
+                    <ul>
+                        <div class="headli"><li><a class="Homepage" href="homepage.html">Homepage </a></li></div>
+                        <div class="headli bar1"><li><div class="rectanglehead1 " style="background-color: #35524a;"></div><a class="Ourteam" href="ourteam.html">Our team</a></li></div>
+                        <div class="headli bar2"><li><div class="rectanglehead1" style="background-color: #0024ff; "></div><a class="Oursolutions" href="oursolution.html">Our solutions</a></li></div>
+                        <div class="headli bar3"><li><div class="rectanglehead1" style="background-color: #f24918; "></div><a class="Industries" href="industry.html">Industries</a></li></div>
+                        <div class="headli bar4"><li><div class="rectanglehead1" style="background-color: #f8ae2e; "></div><a class="Careers" href="career.html">Careers</a></li></div>                        <div class="headli bar1"><li ><div class="rectanglehead1" style="background-color: #35524a; "></div><a class="Contactus" href="contactus.html">Contact us</a></li></div>
+                        
+                        <select id="language-select1" onchange="setLanguage(this.value)" class="headli">
+                            <option value="en">English</option>
+                            <option value="tc">繁體中文</option>
+                            <option value="sc">简体中文</option>
+                          </select>
+                          
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+                  <div class="mobileheader">
+                    <div class="mobileheader1">
+                       <img id="logo" src="pic/ReSaTech_Logo6a.png" alt="our company logo"></img>
+                       <button class="menubtn" onclick="toggleMenu()"><div class="menubtn1"> <div class="menubtn2"><div class="menubtn2"></div> </div> </div></button>
+                    </div>
+                       <nav id="menu">
+                         <ul>
+                            <li> <a class="Homepage headmo" href="homepage.html">Homepage</a></li>
+                            <li> <a class="bar1 headmo" href="ourteam.html" ><div class=" headertimo"><div class="rectangleheadmo " style="background-color: #35524a;"></div><div class="Ourteam"></div> </div></a></li>
+                            <li> <a class="bar2 headmo" href="oursolution.html"><div class=" headertimo"><div class="rectangleheadmo " style="background-color: #0024ff;"></div><div class="Oursolutions"></div></div></a></li>
+                            <li> <a class="bar3 headmo" href="industry.html" ><div class=" headertimo"><div class="rectangleheadmo " style="background-color: #f24918;"></div><div class="Industries"></div></div></a></li>
+                            <li> <a class="bar4 headmo" href="career.html" ><div class=" headertimo"><div class="rectangleheadmo " style="background-color: #f8ae2e;"></div><div class="Careers"></div></div></a></li>
+                            <li> <a class="bar1 headmo" href="contactus.html" ><div class=" headertimo"><div class="rectangleheadmo " style="background-color: #35524a;"></div><div class="Contactus"></div></div></a></li>
+                            <div class="bar3"></div><li>                        <select id="language-select2" onchange="setLanguage(this.value)" class="headlimo">
+                                <option value="en">English</option>
+                                <option value="tc">繁體中文</option>
+                                <option value="sc">简体中文</option>
+                              </select></li></div>
+
+            
+            </ul>
+           </nav>
+
+      </div>
+      
+	</header>
+
+	<main>
+        <div class="contactus">
+            <div class="contactusmail">
+                    <form method="POST" action="submit.php">
+                        <label for="name" class="contactusti1">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                        <label for="email" class="contactusti2">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="comment" class="contactusti3">Comment:</label>
+                        <textarea id="comment" name="comment" required></textarea><br><br>
+                        <button type="submit" class="contactusti4">Submit</button>
+                    </form>
+                  <!-- <svg viewBox="0 0 100 100" width="100%" height="100%">
+                    <line x1="0" y1="0" x2="100" y2="100" stroke="black" stroke-width="2" />
+                  </svg>
+                  <div class="triangle-up"></div> -->
+
+
+
+            </div>
+            <!-- <div class="contactusmap">
+                <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+                <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;">
+                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/search?q=Unit+1212-1213,+12/F,+19W,+Hong+Kong+Science+Park,+HK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div>
+                <a class="googl-ehtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="auth-map-data">premium bootstrap themes</a><style>#embed-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+
+            </div> -->
+
+            <div class="contactusmap contactusmapch">
+                <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=香港科學園19W+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">premium bootstrap themes</a><style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+                </div>            
+            </div>
+
+            <div class="contactusmap contactusmapen">
+                <div style="width: 100%"><iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=hk%20science%20park%2019w+(ReSaTech%20Limited)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
+                </div>
+            </div>
+
+            <div class="contactusmap contactusmapsch">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.039150102531!2d114.20574387529626!3d22.427552229595353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404094b52f9cebf%3A0x8da07fbe6b29a131!2sBuilding%2019W!5e0!3m2!1szh-CN!2shk!4v1708074765920!5m2!1szh-CN!2shk" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+
+
+ 
+    </main>
+	<footer>
+        <div class="desktopfooter">
+            <div class="desktopfooter1">
+                    <p class="obold contactf">Our Contact</p>
+                    <span class="obold namef">ReSaTech Limited</span><br>
+                    <span class="address1">Mail box no.721-23</span>
+                    <span class="address2">Unit 721, 7/F, Building 19W</span>
+                    <span class="address3">No. 19 Science Park West Avenge</span>
+                    <span class="address4">Hong Kong Science Park</span>
+                    <span class="address5">Pak Sehk Kok, N.T.</span>
+                    <span></span>
+            </div>
+            <div class="desktopfooter1">
+                <p class="quicklinkf obold">Quick Links</p>
+                <a class="Ourteam whiteco" href="ourteam.html">Our team</a>
+                <a class="Oursolutions" href="oursolution.html">Our solutions</a>
+                <a class="Industries" href="industry.html">Industries</a>
+                <a class="Careers" href="career.html">Careers</a>
+                <a class="Contactus" href="contactus.html">Contact us</a>
+            </div>
+            <div class="desktopfooter1"><p class="latestf obold">Latest posts</p></div>
+            <div class="desktopfooter1"><p class="recentnewsf obold">Recent News</p></div>
+        </div>
+        
+        <div class="mobilefooter">
+            <div class="footermo1">
+                <p class="obold contactf">Our Contact</p>
+                <span class="obold namef">ReSaTech Limited</span><br>
+                <span class="address1">Mail box no.721-23</span>
+                <span class="address2">Unit 721, 7/F, Building 19W</span>
+                <span class="address3">No. 19 Science Park West Avenge</span>
+                <span class="address4">Hong Kong Science Park</span>
+                <span class="address5">Pak Sehk Kok, N.T.</span>
+                <span></span>
+        </div>
+        <div class="footermo1">
+            <br><br><p class="quicklinkf obold">Quick Links</p>
+            <a class="Ourteam whiteco" href="ourteam.html">Our team</a>
+            <a class="Oursolutions" href="oursolution.html">Our solutions</a>
+            <a class="Industries" href="industry.html">Industries</a>
+            <a class="Careers" href="career.html">Careers</a>
+            <a class="Contactus" href="contactus.html">Contact us</a>
+        </div>
+        <div class="footermo1"><br><br><p class="latestf obold">Latest posts</p></div>
+        <div class="footermo1"><br><br><p class="recentnewsf obold">Recent News</p></div>
+        </div>
+
+
+<div class="footer">
+		<div class="footermar"><span>&copy;   </span><span class=" namef"> ReSaTech Limited</span></div> 
+    </div>
+	</footer>	
+    <script src="lang.js"></script>
+
+</body>
+</html>
