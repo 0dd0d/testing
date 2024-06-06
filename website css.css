@@ -1724,6 +1724,7 @@ flex-direction: column;
     /* justify-content: center; */
     width:50%;
 }
+
 .contactusmo{
   display:flex;
   position:relative;
@@ -1731,6 +1732,10 @@ flex-direction: column;
   border:0px solid rgb(36, 208, 214);
   margin-top: 2%;
 }
+
+
+
+
 
 
 
