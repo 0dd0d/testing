@@ -1792,13 +1792,13 @@ flex-direction: column;
 } */
 
 @media screen and (min-width: 49rem) {
-  .mobileservice, .mobilevision, .mobileaboutus, .mobileheader, .mobilehpvideo, .mobilerisk, .mobileoursolution, .mobilefooter ,.mobileourteammem {
+  .mobileservice, .mobilevision, .mobileaboutus, .mobileheader, .mobilehpvideo, .mobilerisk, .mobileoursolution, .mobilefooter ,.mobileourteammem ,.contactusmo{
     display: none; 
   }
 }
 
 @media screen and (max-width: 48.999rem) {
-  .desktopservice ,.desktopourvision , .desktopaboutus, .desktopheader, .desktopoursolution, .desktophpvideo , .desktoprisk , .desktopfooter ,.desktopourteammem {
+  .desktopservice ,.desktopourvision , .desktopaboutus, .desktopheader, .desktopoursolution, .desktophpvideo , .desktoprisk , .desktopfooter ,.desktopourteammem ,.contactus{
     display: none;
   }
 }
