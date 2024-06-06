@@ -1724,7 +1724,13 @@ flex-direction: column;
     /* justify-content: center; */
     width:50%;
 }
-
+.contactusmo{
+  display:flex;
+  position:relative;
+  width:100%;
+  border:0px solid rgb(36, 208, 214);
+  margin-top: 2%;
+}
 
 
 
