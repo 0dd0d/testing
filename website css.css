@@ -1584,16 +1584,21 @@ padding-top: 0%;
 #h10{
   height:9rem;
   padding: 2% 1% 2% 1%;
+  max-width:45%;
 }
 
 #h20{
     height:12rem;
     padding: 2% 1% 2% 1%;
+    max-width:45%;
+
 }
 
 #h30{
   height:14rem;
   padding: 2% 1% 2% 1%;
+    max-width:45%;
+
 }
 
 
