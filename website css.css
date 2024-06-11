@@ -1581,23 +1581,28 @@ padding-top: 0%;
   justify-content: center;
 
 }
-#h10{
-  height:9rex;
+#h10 {
+  height: 9rem; 
   padding: 2% 1% 2% 1%;
-  max-width: 95%;
+  max-width: 45%;
+  object-fit: contain;
 }
 
 #h20{
-    height:12rex;
+    height:12rem;
     padding: 2% 1% 2% 1%;
-    max-width: 95%;
+    max-width: 45%;
+    object-fit: contain;
+
 
 }
 
 #h30{
-  height:14rex;
+  height:14rem;
   padding: 2% 1% 2% 1%;
-  max-width: 95%;
+  max-width: 45%;
+  object-fit: contain;
+
 }
 
 
