@@ -310,7 +310,8 @@ padding-top: 0%;
   text-align: center;
   line-height: 1.5;
   z-index: 0;
-  height:100%;
+  /* height:100%; */
+
 }
 
   .hpvideopmo {
@@ -569,7 +570,7 @@ padding-top: 0%;
   border:0px solid rgb(214, 108, 108);
   display: flex;
   position: relative;
-  height:90vh;
+  height:95vh;
   width:100%;
   overflow: hidden;
 }
@@ -1445,6 +1446,8 @@ padding-top: 0%;
   flex-direction: column;
 }
 
+
+
 #appropic{
   height: 25vw;
 }
@@ -1457,6 +1460,76 @@ padding-top: 0%;
   margin-top: 3.5vw;
   width:110%;
 }
+
+.soluscenar1{
+  border:0px solid rgb(228, 87, 146);
+  position: relative;
+  display: flex;
+  height:calc(6vw);
+  width:100%;
+  flex-direction:row;
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  margin: 0 2 0 2;
+  margin-top: 10%;
+
+}
+
+.soluscenar2{
+  border:0px solid rgb(69, 255, 109);
+  position: relative;
+  display: flex;
+  height:100%;
+  width:20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktopsoluscenar {
+  display: flex;
+  position: relative;
+  margin-top: 5%;
+}
+
+#w100{
+  width:100%
+  }
+
+.soluscenarp{
+  color: rgb(235, 235, 235);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  text-align: left;
+  line-height: 1;
+  border:0px solid rgb(214, 108, 108);
+  width: 85%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .soluapproachmo1{
@@ -1513,6 +1586,8 @@ padding-top: 0%;
 }
 
 .soluapproachmorect1 {
+  border:0px solid rgb(175, 218, 59);
+
   height:5px;
   border-radius: 20px;
   position:absolute;
@@ -1520,6 +1595,77 @@ padding-top: 0%;
 }
 
 
+
+.soluscenarmo1{
+  border:0px solid rgb(175, 218, 59);
+  position: relative;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+}
+
+.soluscenarmo2{
+  border:0px solid rgb(59, 181, 218);
+  position: relative;
+  display: flex;
+  height:15vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-bottom: 5%; */
+}
+.soluscenarmo3{
+  border:0px solid rgb(214, 108, 108);
+  display: flex;
+  position: relative;
+  height:90vh;
+  width:100%;
+  overflow: hidden;
+  font-size: 15vw;
+  margin-top: 10%;
+
+  }
+
+.soluscenarbg{
+  color: rgb(235, 235, 235);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)scale(0.4);
+  text-align: center;
+  line-height: 1.5;
+  z-index: 0;
+/* height: 300%; */
+}
+
+.soluscenarbg1{
+  color: rgb(235, 235, 235);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -50%)scale(0.2);
+  text-align: center;
+  line-height: 1.5;
+  z-index: 0;
+
+/* height: 300%; */
+}
+
+.soluscenarp1{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+  text-align: right;
+  line-height: 1;
+  border:0px solid rgb(214, 108, 108);
+  width: 85%; 
+}
 
 
 
@@ -1545,6 +1691,10 @@ padding-top: 0%;
   font-weight: bold;
 }
 
+
+
+
+
 /* .industry2{
   border:0px solid rgb(104, 36, 214);
   display: flex;
@@ -1558,7 +1708,7 @@ padding-top: 0%;
 .industry2sub{
   width:80%;
   display: flex;
-  border:0px solid rgb(223, 203, 255);
+  border:0px solid rgb(48, 24, 87);
   justify-content: space-around;
   margin-top: 2%;
 }
