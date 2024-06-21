@@ -165,6 +165,11 @@ if (lang === 'en') {
   document.querySelectorAll('.soluapporachdes2').forEach(function(element) {element.textContent = 'By constantly analyzing data, detecting patterns, and providing insights to users in real-time, AI models can deliver immediate feedback, identify errors, offer suggestions, and generate reports by leveraging machine learning algorithms.';});
   document.querySelectorAll('.soluapporachti3').forEach(function(element) {element.textContent = 'Early prevention';});
   document.querySelectorAll('.soluapporachdes3').forEach(function(element) {element.textContent = 'By analyzing large amounts of data and detecting patterns, AI models can perform early prevention, identifying potential health risks and taking appropriate measures to prevent or address issues before they escalate. Leveraging machine learning algorithms, these models can provide insights for better decision-making, leading to early prevention and reduction in the risk of adverse health outcomes.';});
+  document.querySelectorAll('.soluscenarti').forEach(function(element) {element.textContent = 'Apply scenario';});
+  document.querySelectorAll('.soluscenarti1').forEach(function(element) {element.textContent = 'ShenZhen metro';});
+  document.querySelectorAll('.soluscenardes1').forEach(function(element) {element.textContent = "Close collaborate with Shenzhen Metro Group Co., Ltd. and Shenzhen Railway Group Engineering Technology Center to establish and develop railway defect detection technology, crediting ReSaTech Limited's support.";});
+  document.querySelectorAll('.soluscenarti2').forEach(function(element) {element.textContent = 'Dongguan government';});
+  document.querySelectorAll('.soluscenardes2').forEach(function(element) {element.textContent = 'Close collaborate with Dongguan government and Dongguan Science and Technology Bureau for the establishment for the Dongguang branch office.';});
   document.querySelectorAll('.industriesti').forEach(function(element) {element.textContent = 'CAiRS’s Collaboration Partners';});
   document.querySelectorAll('.industriesti1').forEach(function(element) {element.textContent = 'customer';});
   document.querySelectorAll('.industriesti2').forEach(function(element) {element.textContent = 'supplier';});
@@ -276,6 +281,11 @@ else if (lang === 'tc') {
   document.querySelectorAll('.soluapporachdes2').forEach(function(element) {element.textContent = '透過不斷分析資料、偵測模式並向使用者即時提供見解，人工智慧模型可以利用機器學習演算法提供即時回饋、識別錯誤、提供建議並產生報告。';});
   document.querySelectorAll('.soluapporachti3').forEach(function(element) {element.textContent = '早期預防';});
   document.querySelectorAll('.soluapporachdes3').forEach(function(element) {element.textContent = '透過分析大量數據和檢測模式，人工智慧模型可以進行早期預防，識別潛在的健康風險，並在問題升級之前採取適當的措施來預防或解決問題。 利用機器學習演算法，這些模型可以為更好的決策提供見解，從而實現早期預防並降低不良健康結果的風險。';});
+  document.querySelectorAll('.soluscenarti').forEach(function(element) {element.textContent = '應用場景';});
+  document.querySelectorAll('.soluscenarti1').forEach(function(element) {element.textContent = '深圳地鐵';});
+  document.querySelectorAll('.soluscenardes1').forEach(function(element) {element.textContent = '與深圳地鐵集團有限公司、深圳鐵路集團工程技術中心密切合作，建立和開發鐵路缺陷檢測技術';});
+  document.querySelectorAll('.soluscenarti2').forEach(function(element) {element.textContent = '東莞市政府';});
+  document.querySelectorAll('.soluscenardes2').forEach(function(element) {element.textContent = '與東莞市政府、東莞市科學技術局密切合作，成立東莞分公司。';});
   document.querySelectorAll('.industriesti').forEach(function(element) {element.textContent = '產品可靠性暨系統安全研發中心的合作夥伴';});
   document.querySelectorAll('.industriesti1').forEach(function(element) {element.textContent = '顧客';});
   document.querySelectorAll('.industriesti2').forEach(function(element) {element.textContent = '供應商';});
@@ -376,6 +386,11 @@ else if (lang === 'sc') {
   document.querySelectorAll('.soluapporachdes2').forEach(function(element) {element.textContent = '透过不断分析资料、侦测模式并向使用者即时提供见解，人工智慧模型可以利用机器学习演算法提供即时回馈、识别错误、提供建议并产生报告。';});
   document.querySelectorAll('.soluapporachti3').forEach(function(element) {element.textContent = '早期预防';});
   document.querySelectorAll('.soluapporachdes3').forEach(function(element) {element.textContent = '透过分析大量数据和检测模式，人工智慧模型可以进行早期预防，识别潜在的健康风险，并在问题升级之前采取适当的措施来预防或解决问题。 利用机器学习演算法，这些模型可以为更好的决策提供见解，从而实现早期预防并降低不良健康结果的风险。';});
+  document.querySelectorAll('.soluscenarti').forEach(function(element) {element.textContent = '应用场景';});
+  document.querySelectorAll('.soluscenarti1').forEach(function(element) {element.textContent = '深圳地铁';});
+  document.querySelectorAll('.soluscenardes1').forEach(function(element) {element.textContent = '与深圳地铁集团有限公司、深圳铁路集团工程技术中心紧密合作，建立和开发铁路缺陷检测技术';});
+  document.querySelectorAll('.soluscenarti2').forEach(function(element) {element.textContent = '东莞政府';});
+  document.querySelectorAll('.soluscenardes2').forEach(function(element) {element.textContent = '与东莞政府和东莞市科技局紧密合作，成立东莞分公司。';});
   document.querySelectorAll('.industriesti').forEach(function(element) {element.textContent = '产品可靠性暨系统安全研发中心的合作伙伴';});
   document.querySelectorAll('.industriesti1').forEach(function(element) {element.textContent = '顾客';});
   document.querySelectorAll('.industriesti2').forEach(function(element) {element.textContent = '供应商';});
