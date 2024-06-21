@@ -1657,13 +1657,13 @@ padding-top: 0%;
 .soluscenarp1{
   color: rgb(0, 0, 0);
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 10%;
   /* transform: translate(-50%, -50%); */
   z-index: 1;
   text-align: right;
   line-height: 1;
-  border:10px solid rgb(214, 108, 108);
+  border:0px solid rgb(214, 108, 108);
   width: 85%; 
 }
 
